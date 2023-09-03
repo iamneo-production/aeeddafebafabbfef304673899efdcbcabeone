@@ -37,7 +37,10 @@ body{
     color: darkred;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
-.btn 
+.btn :hover{
+    color: white ;
+    font-weight: bold;
+}
 #reset{
     font-size: 1.3em;
     padding: 1em;
