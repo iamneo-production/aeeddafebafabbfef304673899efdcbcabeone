@@ -19,10 +19,11 @@
   }
   .box {
     width: 70vmin;
-    height: 70vmin;
+    height: 70vmin; 
+    gap: 2vmin;
     display: flex;
     flex-wrap: wrap;
-    gap: 2vmin;
+    margin: 35px;
   }
   .btn{
     background: grey;
