@@ -1,33 +1,30 @@
-#header{
-    text-align: center;
-    color:white;
-    font-size: 50px;
-}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-body{
+    font-family: "Raleway", sans-serif;
+  }
+  body {
     height: 100vh;
     background: black;
-}
-.row{
+  }
+  html {
+    font-size: 16px;
+  }
+  .row {
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-}
-.box{
-    margin: 35px;
+  }
+  .box {
     width: 70vmin;
     height: 70vmin;
     display: flex;
     flex-wrap: wrap;
-    gap: 3vmin;
-}
-.btn{
+    gap: 2vmin;
+  }
+  .btn{
     background: grey;
     height: 22vmin;
     width: 22vmin;
@@ -38,25 +35,29 @@ body{
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .btn :hover{
-    color: white ;
-    font-weight: bold;
+  color: white ;
+  font-weight: bold;
+}
+  #header{
+    text-align: center;
+    color:white;
+    font-size: 50px;
 }
 #reset{
-    font-size: 1.3em;
-    padding: 1em;
-    border-radius: 8px;
-    background-color: white;
-    color: black;
-    border: none;
-    position: relative;
-    margin: 1.5em auto 0 auto;
-    display: block;
+  font-size: 1.3em;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: none;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  display: block;
 }
-.popup{
+  .popup {
     background: grey;
-    height: 250%;
+    height: 100%;
     width: 100%;
-    padding-top: 75%;
     position: absolute;
     display: flex;
     z-index: 2;
@@ -65,21 +66,20 @@ body{
     flex-direction: column;
     gap: 1em;
     font-size: 12vmin;
-}
-#new-game{
+  }
+  #new-game {
     font-size: 0.6em;
     padding: 0.5em 1em;
-    background-color: white;
-    color: black;
+    background-color: #0a0027;
+    color: #ffffff;
     border-radius: 0.2em;
     border: none;
-}
-#message{
-    color: cyan;
+  }
+  #message {
+    color: #ffffff;
     text-align: center;
     font-size: 1em;
-
-}
-.popup.hide{
+  }
+  .popup.hide {
     display: none;
-}
+  }
