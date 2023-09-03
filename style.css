@@ -11,5 +11,29 @@
 }
 body{
     height: 100vh;
-    background: url();
+    background: black;
+}
+.row{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.box{
+    margin: 35px;
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vmin;
+}
+.btn{
+    background: grey;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+    color: darkred;
+    
 }
